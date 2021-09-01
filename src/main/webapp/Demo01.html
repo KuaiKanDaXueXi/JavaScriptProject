@@ -10,6 +10,26 @@
     <!--内部JS-->
     <script>
           // alert("zhang san");
+          // var a = 3;
+          // alert(a);
+          // a = 'abc';
+          // alert(a);
+          // Date
+          var date = new Date();
+          //方法：
+          //    toLocaleString(): 返回当前date对象对应的本地时间本地字符串格式
+          //    getTime(): 获取毫秒值。返回当前日期对象的时间和1970年1月1日0点的毫秒值差
+          document.write(date + "<br/>");
+          document.write(date.toLocaleString() + "<br/>");
+          document.write(date.getTime() + "<br/>");
+          document.write("<br/>");
+          document.write("<br/>");
+          document.write("<br/>");
+          var a = NaN;
+          document.write(isNaN(a));
+          var jscode = "alert(1242)";
+          eval(jscode);
+
     </script>
 </body>
 </html>
